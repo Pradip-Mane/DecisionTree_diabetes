@@ -80,6 +80,8 @@
   * but it should not be very less else there is **Underfitting** Problem occurs
   * Therefor the optimal value of max_depth is needed 
 
+
+-----------------------------------------------------------------------------
 - max_depth=5
 
     - prediction on test data
@@ -118,7 +120,8 @@
 
 
 - max_depth= 4
-       - prediction on test data
+
+    - prediction on test data
 
                         ****** prediction on test data *******
                         Confusion Matrix
@@ -137,7 +140,7 @@
 
 
 
-        - prediction on train data
+    - prediction on train data
 
                         ****** prediction on train data *******
                         Confusion Matrix
@@ -157,7 +160,7 @@
 
 - max_depth=3
 
-        - prediction on test data
+    - prediction on test data
 
                         ****** prediction on test data *******
                         Confusion Matrix
@@ -177,7 +180,7 @@
 
 
 
-        - prediction on train data
+    - prediction on train data
 
                         ****** prediction on train data *******
                         Confusion Matrix
@@ -197,6 +200,7 @@
 
 - Out of all max_depth=5 gives a optimal model so we will use that model for deployment
 
+----------------------------------------------------------------------------------
 ### 7. Pickling of Model
  
 ### 8. Model Deployment on render
